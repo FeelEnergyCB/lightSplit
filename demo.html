@@ -12,13 +12,17 @@
       line-height: 0;
       box-sizing: border-box;
     }
+    body {
+      display: table;
+      width: 100%;
+    }
     body * {
       box-sizing: border-box;
     }
     .wrapper {
-      width: 960px;
-      margin: auto;
-      padding: 10% 0;
+      padding: 0 10%;
+      display: table-cell;
+      vertical-align: middle;
     }
     ul {
       font-size: 16px;
@@ -51,13 +55,15 @@
       <li>List item 14</li>
       <li>List item 15</li>
       <li>List item 16</li>
+      <li>List item 17</li>
+      <li>List item 18</li>
     </ul>
   </div>
   <script src="lightSplit.min.js"></script>
   <script>
     lightSplit({
       selector: '.list',
-      columns: 5
+      columns: 3
     });
   </script>
 </body>

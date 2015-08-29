@@ -74,11 +74,11 @@ var lightSplit = (function() {
           ul = document.createElement('ul'),
           li = document.createElement('li');
 
-      li.className = customClass + '_item';
+      li.className = customClass + '__item';
       wrapper.className = classes;
 
       for (var j = 0, jlen = items.length; j < jlen; j += 1) {
-        ul.className = customClass + '_column' + ' is-' + (j + 1);
+        ul.className = customClass + '__column' + ' ' + customClass + '__column_' + (j + 1);
         for (var k = 0, klen = items[j].length; k < klen; k += 1) {
           li.innerHTML = items[j][k].innerHTML;
           ul.appendChild(li.cloneNode(true));
