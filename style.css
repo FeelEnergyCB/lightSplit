@@ -1,0 +1,14 @@
+.lightSplit {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+.lightSplit__column {
+  display: table-cell;
+  border-left: 1px solid;
+  text-align: center;
+  padding: 0 10px;
+}
+.lightSplit__column:first-child {
+  border-left: none;
+}
