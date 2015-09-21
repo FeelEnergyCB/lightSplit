@@ -1,7 +1,7 @@
 # lightSplit
 
 ### Demo:
-http://feelenergycb.github.io/lightSplit
+http://mikitalisavets.me/lightSplit
 
 ### Usage:
 ```
