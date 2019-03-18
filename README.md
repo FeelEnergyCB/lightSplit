@@ -1,7 +1,7 @@
 # lightSplit
 
 ### Demo:
-http://mikitalisavets.me/lightSplit
+https://mikitalisavets.me/lightSplit
 
 ### Usage:
 ```
