@@ -1,7 +1,9 @@
 # lightSplit
 
+#### Transformation of the list into columns
+
 ### Demo:
-https://mikitalisavets.me/lightSplit
+https://mikitalisavets.me/light-split
 
 ### Usage:
 ```
